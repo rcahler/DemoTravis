@@ -8,9 +8,4 @@ public class FactorialTest {
     public void CorrectFactorial() {
         assertEquals(120, Factorial.calculate(5));
     }
-
-    @Test
-    public void FailingFactorial(){
-        assertEquals(121, Factorial.calculate(5));
-    }
 }
